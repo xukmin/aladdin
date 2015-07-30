@@ -1,0 +1,84 @@
+h1, h2, h3 {
+  text-align: center;
+  color: royalblue;
+}
+
+table, th, td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color: royalblue;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+table.buttons, tr.buttons, td.buttons {
+  background-color: #fff;
+  border: none;
+  border-collapse: collapse;
+}
+
+.right {
+  text-align: right;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+form {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  text-align: center;
+}
+
+fieldset {
+  border: 1px solid lightgray;
+  text-align: center;
+  padding: 1em 1em;
+}
+
+p.form {
+  display: table-row;
+  line-height: 2em;
+}
+
+p.center {
+  text-align: center;
+}
+
+label {
+  text-align: right;
+  display: table-cell; 
+}
+
+input {
+  display: table-cell;
+}
+
+input.button {
+  background-color: royalblue;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2em;
+}
+
